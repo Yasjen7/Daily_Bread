@@ -1,15 +1,21 @@
 body {
+  background-image: url('/campo.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
+  font-weight: 900;
+  text-shadow: 0 0 2px #fafafa,
+               0 0 2px #dfe6cd,
+               0 0 0px #54924e;
   font-variant:small-caps;
-  color: #2F5233;
-  background-color: #76B041;
+  color: #397d6a;
   text-align: center;
   padding: 2rem;
 }
 
 .card {
-  background-color: #C0DFA1;
+  background-color: #b1ebc7;
   border-radius: 10px;
   padding: 1.5rem;
   max-width: 500px;
@@ -19,16 +25,19 @@ body {
 
 button {
   padding: 0.75rem 1.5rem;
-  border-color: #d8ff17;
+  border-color: #184339;
   border-radius: 40%;
   border-width: 2mm;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   font-variant: small-caps;
-  color: #3c5f36;
+  color: #efede3;
   font-weight: bolder;
   margin-top: 1rem;
   cursor: pointer;
-  background-color: #a6ce55;
+  background-color: #397d6ac7;
   border-style:double;
+  text-shadow: 0 0 4px #280404,
+  0 0 10px #f9f6f9,
+  0 0 2px #d16799;
 }
